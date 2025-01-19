@@ -41,7 +41,10 @@ const AboutComponent = () => {
             <h1 className="text-2xl">Easy to Use</h1>
           </div>
         </div>
-        <Link to={"/service"} className="bg-primary-200 hover:bg-primary-300 transition-all transform duration-300 cursor-pointer flex items-center justify-center font-bold text-md px-8 my-6 uppercase shadow-lg shadow-gray-300 text-white rounded-full py-3 w-[150px] text-center">
+        <Link
+          to={"/service"}
+          className="bg-primary-200 hover:bg-primary-300 transition-all transform duration-300 cursor-pointer flex items-center justify-center font-bold text-md px-8 my-6 uppercase shadow-lg shadow-gray-300 text-white rounded-full py-3 w-[150px] text-center"
+        >
           <span className="">Services</span>
         </Link>
       </div>
